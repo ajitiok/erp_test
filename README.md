@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -13,17 +11,6 @@ pnpm dev
 # or
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -35,6 +22,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can access at this link below
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`https://erp-test-rho.vercel.app/`
+
+
+## Documentation
+
+1. Next.js
+Alasan Pemilihan: Next.js dipilih sebagai kerangka kerja utama untuk aplikasi ini karena kemampuannya dalam membuat aplikasi React dengan pengaturan yang lebih minimal. Next.js mendukung rendering sisi server (SSR) dan static site generation (SSG), yang meningkatkan performa dan SEO. Fitur ini sangat bermanfaat untuk aplikasi yang membutuhkan waktu muat cepat dan pengoptimalan mesin pencari.
+
+2. Tailwind CSS
+Alasan Pemilihan: Tailwind CSS dipilih karena fleksibilitasnya dalam membangun antarmuka pengguna. Tailwind adalah utility-first CSS framework, yang memungkinkan pengembangan UI yang cepat tanpa menulis CSS secara manual. Tailwind memungkinkan penggunaan kelas-kelas utility yang dapat langsung diterapkan pada elemen HTML untuk mengatur gaya, sehingga mengurangi keperluan membuat file CSS yang besar.
+
+3. Gsap
+Alasan Pemilihan: mudah integrasi.
+
+4. HeadlessUI
+Alasan Pemilihan: mudah integrasi.
